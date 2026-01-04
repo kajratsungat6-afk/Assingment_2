@@ -13,7 +13,7 @@ public abstract class Vehicle {
         setBasePrice(basePrice);
     }
 
-    // getters
+    
     public int getId() {
         return id;
     }
@@ -30,7 +30,6 @@ public abstract class Vehicle {
         return basePrice;
     }
 
-    // setters with validation
     public void setModel(String model) {
         if (model != null && !model.isEmpty()) {
             this.model = model;
